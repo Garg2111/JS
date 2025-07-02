@@ -47,4 +47,34 @@ console.log(typeof myObj);
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory and Heap memory.
+// Stack memory used in primitive dataTypes and Heap Memory used in non-primitive dataTypes.
+
+let myName="Ansh Garg"
+console.log(myName);
+
+let anotherName=myName
+anotherName = "helloo"
+console.log(anotherName);
+
+
+let userOne = {
+     email:" user@gmail.com",
+     upi: "user@ybl"
+
+}
+console.log(userOne)
+
+let userTwo = userOne
+userTwo.email = "ansh@gmail.com"
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
+
     
