@@ -23,11 +23,11 @@ function User(username,loginCount,isLoggedIn){
     this.isLoggedIn = isLoggedIn;
     this.greetings = function(){
         console.log(`Welcome ${this.username}`);
-        
     }
-
     return this;
 }
+
+        
 
 const userOne = new User("ANSH",8,true)
 const userTwo = new User("Hello",12,false)
